@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.it {
+  font-size: 1.8rem;
+  margin: 0;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+img {
+  height: 200px;
+}
+
+h1 {
+  font-size: 5.625rem;
+  /*100% = 16px = 1em */
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+/*rem is the size unit which is not affeted by the size of their parents but
+ other units of size can be affected by the size of the parents */
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+}
+
+.bottom-cloud {
+  position: absolute;
+  height: 3rem;
+  width: 9.375rem;
+  left: 200px;
+  top: 250px;
+}
+
+.top-cloud {
+  position: absolute;
+  height: 3rem;
+  width: 9.375rem;
+  right: 320px;
+  top: 50px;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.moutain {
+  height: 25rem;
+}
+
+.computer {
+  border-radius: 500px;
+  width: 25%;
+  height: 25%;
+  float: left;
+  margin-right: 30px;
+
+}
+.chillies {
+  width: 25%;
+  height: 25%;
+  float: right;
+  margin-left: 30px;
+
+
+}
+.skills{
+  margin: 50px auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.profile{
+  margin: 50px auto 50px auto;
+  width: 50%;
+  text-align: center;
+}
+hr{
+
+    border-style:none;
+    border-top-style: dotted;
+    border-top-color: #EAF6F6;
+    border-top-width: 5px;
+    height: 0;
+    width: 5%;
+}
+.contact-me{
+  margin: 50px auto;
+}
+.myintro{
+  color:#40514E;
+}
+button{
+  margin-top: 50px;
+}
